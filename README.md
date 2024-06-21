@@ -128,6 +128,7 @@ The script will output the following:
 This project demonstrates a hand gesture recognition system using a deep learning model. The system is accessible through a web interface built with Flask, allowing users to upload images and receive predictions about the gesture depicted.
 
 ***Features***
+  
   Made three different version but in last version:
   - Hand gesture recognition using a convolutional neural network (CNN).
   - Web interface for uploading images and displaying results.
@@ -138,12 +139,12 @@ This project demonstrates a hand gesture recognition system using a deep learnin
 The dataset used consists of near-infrared images of 10 different hand gestures, captured by the Leap Motion sensor. The images are organized into folders based on the subject identifier and gesture type.
 
 ***Project Structure***
-*A.py:* Main Flask application script.
-*V1/V2/V3:* Script to define and train the CNN model.
-*templates/upload.html:* HTML template for the image upload page.
-*templates/result.html:* HTML template for displaying the prediction results.
-*static/uploads/:* Directory to store uploaded images.
-*BModel/best_model/hand_gesture_model.h5:* Pre-trained model file.
+  - *A.py:* Main Flask application script.
+  - *V1/V2/V3:* Script to define and train the CNN model.
+  - *templates/upload.html:* HTML template for the image upload page.
+  - *templates/result.html:* HTML template for displaying the prediction results.
+  - *static/uploads/:* Directory to store uploaded images.
+  - *BModel/best_model/hand_gesture_model.h5:* Pre-trained model file.
 
 ***Requirements***
   - Python 3.x
