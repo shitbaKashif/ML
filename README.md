@@ -122,7 +122,7 @@ The script will output the following:
   - *Regularization:* Adjust regularization parameters to prevent overfitting.
 
 
-## PRODIGY_ML_03
+## PRODIGY_ML_04
 ### Hand Gesture Recognition with Web Interface (Flask)
 
 This project demonstrates a hand gesture recognition system using a deep learning model. The system is accessible through a web interface built with Flask, allowing users to upload images and receive predictions about the gesture depicted.
