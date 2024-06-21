@@ -154,11 +154,11 @@ The dataset used consists of near-infrared images of 10 different hand gestures,
   - Pandas
   - Pillow (PIL)
   You can install the required packages using pip:
-  - pip install flask tensorflow keras numpy pandas pillow
+    - pip install flask tensorflow keras numpy pandas pillow
 
 ***Getting Started***
   1. Clone the repository
-      - git clone https://github.com/yourusername/hand-gesture-recognition.git
+      - git clone https://github.com/shitbaKashif/ML
       - cd hand-gesture-recognition
   
   3. Download the dataset
